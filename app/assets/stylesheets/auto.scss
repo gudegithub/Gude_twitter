@@ -1,0 +1,20 @@
+// Place all the styles related to the auto controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.form {
+  border: 1px solid #DDDDDD;
+  border-radius: 4px;
+  margin: 100px auto;
+  padding: 20px;
+  width: 800px;
+  text-align: center;
+}
+
+.form-controller {
+  margin: 20px auto;
+  width: 600px;
+}
+
+.form-controller input {
+  width: 100%;
+}
