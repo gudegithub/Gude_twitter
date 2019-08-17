@@ -7,6 +7,9 @@
   margin: 100px auto;
   padding: 20px;
   width: 800px;
+}
+
+.form h1 {
   text-align: center;
 }
 
@@ -17,4 +20,10 @@
 
 .form-controller input {
   width: 100%;
+  line-height: 2em;
+  // border-radius: 2px;
+}
+
+.submit {
+  text-align: center;
 }

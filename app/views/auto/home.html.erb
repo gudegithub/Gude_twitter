@@ -1,0 +1,36 @@
+<div class="form">
+  <%= form_with url: auto_twitter_path, method: :post do |form| %>
+  <h1>twitter Auto</h1>
+  <div class="form-controller">
+    <label for="">name</label>
+    <%= form.text_field :name %>
+  </div>
+  <div class="form-controller">
+    <label for="">consumer_key</label>
+    <%= form.text_field :consumer_key %>
+  </div>
+  <div class="form-controller">
+    <label for="">consumer_secret</label>
+    <%= form.text_field :consumer_secret %>
+  </div>
+  <div class="form-controller">
+    <label for="">access_token</label>
+    <%= form.text_field :access_token %>
+  </div>
+  <div class="form-controller">
+    <label for="">access_token_secret</label>
+    <%= form.text_field :access_token_secret %>
+  </div>
+  <div class="form-controller">
+    <label for="">キーワード</label>
+    <%= form.text_field :word %>
+  </div>
+  <div class="form-controller">
+    <label for="">取得数</label>
+    <%= form.text_field :number %>
+  </div>
+  <div class="submit">
+    <%= form.submit "実行" ,class: "button" %>
+  </div>
+  <% end %>
+</div>
