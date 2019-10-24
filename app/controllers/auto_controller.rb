@@ -4,10 +4,7 @@ class AutoController < ApplicationController
 
   def home
   end
-
-  def index
-  end
-
+  
   def twitter
     @user = Twitter::REST::Client.new do |config|
       config.consumer_key = params[:consumer_key]
